@@ -1,0 +1,13 @@
+<h2>Book Appointment</h2>
+
+<form method="post">
+    <input type="text" name="PatientName" placeholder="Patient Name" /><br><br>
+
+    <input type="text" name="DoctorName" placeholder="Doctor Name" /><br><br>
+
+    <input type="date" name="Date" /><br><br>
+
+    <button type="submit">Book</button>
+</form>
+
+<h3 style="color:green">@ViewBag.Alert</h3>
